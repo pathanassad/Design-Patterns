@@ -12,6 +12,7 @@ public class NotificationFactory {
             }
 
             else{
+
                 throw new IllegalArgumentException();
             }
 
