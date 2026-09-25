@@ -1,6 +1,6 @@
 public class SmsFactory implements Factory{
     @Override
-    public Notification createNotification(){
+    public Notification createNotification() {
         return new SmsNotification();
     }
 
