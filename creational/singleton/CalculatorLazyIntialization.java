@@ -12,7 +12,7 @@ public int sum(){
     return a + b;
 }
 
-public static CalculatorLazyIntialization getInstance(){
+public synchronized static CalculatorLazyIntialization getInstance(){
     if(obj == null){
         obj = new CalculatorLazyIntialization();
     }
